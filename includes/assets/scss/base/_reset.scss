@@ -1,0 +1,33 @@
+// ==========================================
+// RESET Y BASE
+// ==========================================
+
+:root {
+    --bg-primary:     #{$bg-primary};
+    --bg-secondary:   #{$bg-secondary};
+    --panel:          #{$panel};
+    --panel-border:   #{$panel-border};
+    --text-primary:   #{$text-primary};
+    --text-muted:     #{$text-muted};
+    --accent:         #{$accent};
+    --accent-strong:  #{$accent-strong};
+    --accent-soft:    #{$accent-soft};
+    --shadow:         #{$shadow};
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    font-family: $fuente-base;
+    background:
+        radial-gradient(circle at top left, rgba($accent, 0.14), transparent 30%),
+        linear-gradient(135deg, #0b0d12 0%, #121821 100%);
+    color: $text-primary;
+}
+
+body {
+    min-height: 100vh;
+    @include grid-center;
+}

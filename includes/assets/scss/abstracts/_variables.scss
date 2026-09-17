@@ -1,0 +1,33 @@
+// ==========================================
+// VARIABLES GLOBALES — Tema dark de Veterinaria
+// ==========================================
+
+// --- Colores de fondo ---
+$bg-primary:      #0f1117;
+$bg-secondary:    #171b23;
+$panel:           rgba(23, 27, 35, 0.9);
+$panel-border:    rgba(154, 160, 180, 0.18);
+
+// --- Texto ---
+$text-primary:    #f1f5f9;
+$text-muted:      #9aa4b2;
+
+// --- Acento (azul-violeta) ---
+$accent:          #7c9cff;
+$accent-strong:   #5c7dff;
+$accent-soft:     rgba(124, 156, 255, 0.18);
+
+// --- Sombras ---
+$shadow:          rgba(0, 0, 0, 0.38);
+
+// --- Tipografía ---
+$fuente-base:     "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+// --- Radios ---
+$radio-sm:  12px;
+$radio-md:  18px;
+$radio-lg:  22px;
+
+// --- Breakpoints ---
+$bp-sm: 480px;
+$bp-md: 768px;

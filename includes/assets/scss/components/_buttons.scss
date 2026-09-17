@@ -1,0 +1,38 @@
+// ==========================================
+// BOTONES
+// ==========================================
+
+.btn-submit {
+    margin-top: 8px;
+    border: none;
+    border-radius: $radio-sm;
+    background: linear-gradient(135deg, $accent, $accent-strong);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.95rem 1.1rem;
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease;
+    box-shadow: 0 18px 32px rgba($accent-strong, 0.28);
+
+    &:hover {
+        transform: translateY(-1px);
+        color: #fff;
+    }
+
+    &:active { transform: translateY(0); }
+}
+
+.signup-text {
+    margin: 22px 0 0;
+    text-align: center;
+    color: $text-muted;
+    font-size: 0.9rem;
+
+    a {
+        color: $accent;
+        text-decoration: none;
+
+        &:hover { text-decoration: underline; }
+    }
+}

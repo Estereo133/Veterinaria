@@ -1,0 +1,26 @@
+// ==========================================
+// MIXINS REUTILIZABLES
+// ==========================================
+
+@mixin flex($dir: row, $justify: flex-start, $align: stretch) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid-center {
+    display: grid;
+    place-items: center;
+}
+
+@mixin responder-a($bp) {
+    @if      $bp == sm { @media (max-width: $bp-sm) { @content; } }
+    @else if $bp == md { @media (max-width: $bp-md) { @content; } }
+}
+
+@mixin foco-acento {
+    border-color: rgba($accent, 0.7);
+    box-shadow: 0 0 0 4px rgba($accent, 0.16);
+    background: rgba($accent, 0.04);
+}

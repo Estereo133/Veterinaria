@@ -1,0 +1,26 @@
+// ==========================================
+// MARCA / ENCABEZADO DEL PANEL
+// ==========================================
+
+.brand-block {
+    @include flex(row, flex-start, center);
+    gap: 14px;
+    margin-bottom: 28px;
+
+    @include responder-a(sm) {
+        margin-bottom: 20px;
+    }
+}
+
+.brand-mark {
+    width: 44px;
+    height: 44px;
+    @include grid-center;
+    border-radius: $radio-sm;
+    background: linear-gradient(135deg, $accent, $accent-strong);
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 0 12px 24px rgba($accent-strong, 0.35);
+
+    i { font-size: 1.4rem; }
+}

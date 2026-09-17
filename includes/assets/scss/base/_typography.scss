@@ -1,0 +1,26 @@
+// ==========================================
+// TIPOGRAFÍA
+// ==========================================
+
+.brand-block h1,
+.welcome-copy h2 {
+    margin: 6px 0 0;
+    font-weight: 700;
+    color: $text-primary;
+}
+
+.welcome-copy {
+    margin-bottom: 22px;
+
+    h2 {
+        font-size: clamp(1.7rem, 2vw, 2.2rem);
+    }
+}
+
+.eyebrow {
+    margin: 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $text-muted;
+}

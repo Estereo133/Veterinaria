@@ -1,0 +1,17 @@
+// ==========================================
+// main.scss — Punto de entrada de Sass
+// ==========================================
+
+// 1. Abstracts (no generan CSS, solo variables/mixins)
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// 2. Base
+@import "base/reset";
+@import "base/typography";
+
+// 3. Componentes
+@import "components/login-panel";
+@import "components/brand";
+@import "components/form";
+@import "components/buttons";

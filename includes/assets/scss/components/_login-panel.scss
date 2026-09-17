@@ -1,0 +1,29 @@
+// ==========================================
+// CONTENEDOR DEL LOGIN
+// ==========================================
+
+.page-shell {
+    width: min(100%, 1200px);
+    min-height: 100vh;
+    @include grid-center;
+    padding: 32px;
+
+    @include responder-a(sm) {
+        padding: 20px;
+    }
+}
+
+.login-panel {
+    width: min(100%, 420px);
+    background: rgba(19, 22, 29, 0.82);
+    border: 1px solid $panel-border;
+    border-radius: $radio-lg;
+    padding: 30px 28px 26px;
+    box-shadow: 0 20px 60px $shadow;
+    backdrop-filter: blur(10px);
+
+    @include responder-a(sm) {
+        padding: 22px 18px 20px;
+        border-radius: $radio-md;
+    }
+}
