@@ -1,4 +1,3 @@
-
 <?php
 
 // Iniciar sesión
@@ -22,8 +21,8 @@ function autenticar($email, $contrasena)
     // Por ahora usamos un usuario de prueba.
     // Después lo conectaremos con MySQL.
 
-    $usuarioDemo = 'admin@veterinaria.com';
-    $contrasenaDemo = '123456';
+    $usuarioDemo = 'admin';
+    $contrasenaDemo = '1234';
 
     if ($email === $usuarioDemo && $contrasena === $contrasenaDemo) {
 
